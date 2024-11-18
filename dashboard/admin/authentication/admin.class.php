@@ -92,7 +92,7 @@ class ADMIN
                 </body>
                 </html>";
                 $this->sendEmail($email, $message, $subject, $this->smtp_email, $this->smtp_password);
-                echo "<script>alert('We sent the OTP $email'); window.location.href = '../../../verify-otp.php';</script>";
+                echo "<script>alert('We sent the OTP 11111 $email'); window.location.href = '../../../verify-otp.php';</script>";
             }
         }
     
